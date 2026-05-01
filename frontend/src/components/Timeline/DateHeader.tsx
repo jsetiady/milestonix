@@ -46,9 +46,9 @@ export function DateHeader({ workdays }: DateHeaderProps) {
             key={i}
             className={`flex flex-col items-center justify-center border-r border-border/50 flex-shrink-0 text-[10px] ${
               day.isToday
-                ? 'text-red-400 font-bold'
+                ? 'text-red-500 font-bold'
                 : day.isHoliday
-                ? 'text-rose-400'
+                ? 'text-rose-500'
                 : 'text-text-muted'
             }`}
             style={{ width: COL_WIDTH }}

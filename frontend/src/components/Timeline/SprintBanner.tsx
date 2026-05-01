@@ -21,9 +21,9 @@ export function SprintBanner({ sprint, workdays, rowIndex }: SprintBannerProps) 
   const width = (endIdx - startIdx + 1) * COL_WIDTH - 1;
   const top = rowIndex * (BANNER_HEIGHT + BANNER_GAP);
 
-  const bgColor = sprint.is_drp ? '#d9770620' : `${sprint.color}20`;
+  const bgColor = sprint.is_drp ? '#fef3c7' : `${sprint.color}18`;
   const borderColor = sprint.is_drp ? '#d97706' : sprint.color;
-  const textColor = sprint.is_drp ? '#f59e0b' : '#818cf8';
+  const textColor = sprint.is_drp ? '#b45309' : '#4f46e5';
 
   return (
     <div

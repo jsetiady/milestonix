@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -17,8 +17,8 @@ html, body, #root {
 }
 
 body {
-  background-color: #0f1117;
-  color: #e2e8f0;
+  background-color: #f8f9fa;
+  color: #191c1d;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,12 +35,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2a2f3d;
+  background: #d1d5db;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a4050;
+  background: #9ca3af;
 }
 
 /* Holiday column text rotation */
@@ -52,6 +52,6 @@ body {
 
 /* Select element styling */
 select option {
-  background-color: #1c2028;
-  color: #e2e8f0;
+  background-color: #ffffff;
+  color: #191c1d;
 }
