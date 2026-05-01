@@ -104,10 +104,10 @@ function ProjectSection({ summary, data }: { summary: ProjectSummary; data: Dash
           <span>{summary.end_date}</span>
         </div>
         <div className="text-xs text-text-secondary">
-          <span className="text-green-400">{summary.done_tasks}</span>
+          <span className="text-green-600">{summary.done_tasks}</span>
           <span className="text-text-muted"> / {summary.total_tasks}</span>
           <br />
-          <span className="text-blue-400 text-[10px]">{summary.active_tasks} active</span>
+          <span className="text-blue-600 text-[10px]">{summary.active_tasks} active</span>
         </div>
         <div>
           <div className="flex items-center gap-1.5">
@@ -139,13 +139,13 @@ function ProjectSection({ summary, data }: { summary: ProjectSummary; data: Dash
 
 function TaskRow({ task }: { task: Task }) {
   const typeColors: Record<string, string> = {
-    Task: 'text-blue-400',
-    Milestone: 'text-amber-400',
-    Story: 'text-indigo-400',
-    Spike: 'text-orange-400',
-    Initiative: 'text-orange-500',
-    Bug: 'text-red-400',
-    Epic: 'text-purple-400',
+    Task: 'text-blue-600',
+    Milestone: 'text-amber-600',
+    Story: 'text-indigo-600',
+    Spike: 'text-orange-600',
+    Initiative: 'text-orange-700',
+    Bug: 'text-red-600',
+    Epic: 'text-purple-600',
   };
 
   return (

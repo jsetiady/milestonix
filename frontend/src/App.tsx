@@ -60,8 +60,8 @@ export default function App() {
   if (error) {
     return (
       <div className="h-screen bg-surface-0 flex items-center justify-center">
-        <div className="bg-surface-2 border border-red-800 rounded-lg p-6 max-w-md text-center">
-          <div className="text-red-400 text-sm font-semibold mb-2">Failed to load data</div>
+        <div className="bg-surface-2 border border-red-300 rounded-lg p-6 max-w-md text-center">
+          <div className="text-red-600 text-sm font-semibold mb-2">Failed to load data</div>
           <div className="text-text-muted text-xs mb-4">{error}</div>
           <p className="text-text-muted text-xs">
             Make sure the backend is running: <br />

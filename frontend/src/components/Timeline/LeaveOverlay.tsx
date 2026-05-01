@@ -25,9 +25,9 @@ export function LeaveOverlay({ leave, workdays, rowHeight }: LeaveOverlayProps) 
         width,
         height: rowHeight,
         backgroundImage:
-          'repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(251,191,36,0.08) 3px, rgba(251,191,36,0.08) 6px)',
-        borderLeft: '1px solid rgba(251,191,36,0.3)',
-        borderRight: '1px solid rgba(251,191,36,0.3)',
+          'repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(217,119,6,0.12) 3px, rgba(217,119,6,0.12) 6px)',
+        borderLeft: '1px solid rgba(217,119,6,0.4)',
+        borderRight: '1px solid rgba(217,119,6,0.4)',
       }}
       title={`${leave.leave_type}: ${leave.assignee}`}
     />

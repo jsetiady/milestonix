@@ -1,13 +1,13 @@
 import type { IssueType, Status, Priority } from '../types';
 
 export const ISSUE_TYPE_COLORS: Record<IssueType, string> = {
-  Task: 'bg-blue-500/20 border-blue-500/60 text-blue-300',
-  Milestone: 'bg-amber-500/20 border-amber-500/60 text-amber-300',
-  Story: 'bg-indigo-500/20 border-indigo-500/60 text-indigo-300',
-  Spike: 'bg-orange-500/20 border-orange-500/60 text-orange-300',
-  Initiative: 'bg-orange-600/20 border-orange-600/60 text-orange-400',
-  Bug: 'bg-red-500/20 border-red-500/60 text-red-300',
-  Epic: 'bg-purple-500/20 border-purple-500/60 text-purple-300',
+  Task: 'bg-blue-50 border-blue-300 text-blue-700',
+  Milestone: 'bg-amber-50 border-amber-300 text-amber-700',
+  Story: 'bg-indigo-50 border-indigo-300 text-indigo-700',
+  Spike: 'bg-orange-50 border-orange-300 text-orange-700',
+  Initiative: 'bg-orange-50 border-orange-400 text-orange-800',
+  Bug: 'bg-red-50 border-red-300 text-red-700',
+  Epic: 'bg-purple-50 border-purple-300 text-purple-700',
 };
 
 export const ISSUE_TYPE_BAR_COLORS: Record<IssueType, string> = {
@@ -21,12 +21,12 @@ export const ISSUE_TYPE_BAR_COLORS: Record<IssueType, string> = {
 };
 
 export const STATUS_COLORS: Record<Status, string> = {
-  Todo: 'text-slate-400',
-  'In Progress': 'text-blue-400',
-  'In Review': 'text-purple-400',
-  Done: 'text-green-400',
-  Blocked: 'text-red-400',
-  Cancelled: 'text-slate-600',
+  Todo: 'text-slate-500',
+  'In Progress': 'text-blue-600',
+  'In Review': 'text-purple-600',
+  Done: 'text-green-600',
+  Blocked: 'text-red-600',
+  Cancelled: 'text-slate-400',
 };
 
 export const STATUS_DOT_COLORS: Record<Status, string> = {

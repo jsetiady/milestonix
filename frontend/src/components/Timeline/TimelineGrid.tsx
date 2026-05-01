@@ -32,7 +32,7 @@ export function TimelineGrid({ workdays, totalHeight, sprintBannerHeight }: Time
           )}
           {/* Holiday column */}
           {day.isHoliday && !day.isToday && (
-            <div className="absolute inset-0 bg-rose-900/10" />
+            <div className="absolute inset-0 bg-rose-50" />
           )}
           {/* Grid line */}
           <div className="absolute right-0 top-0 bottom-0 border-r border-border/30" />
