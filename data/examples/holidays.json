@@ -1,0 +1,25 @@
+{
+  "holidays": [
+    {
+      "id": "HOL-001",
+      "name": "Public Holiday",
+      "date": "2024-07-04",
+      "country": "US",
+      "applies_to": ["All"]
+    },
+    {
+      "id": "HOL-002",
+      "name": "National Day",
+      "date": "2024-08-09",
+      "country": "SG",
+      "applies_to": ["Squad Delta", "Squad Epsilon"]
+    },
+    {
+      "id": "HOL-003",
+      "name": "Labor Day",
+      "date": "2024-09-02",
+      "country": "US",
+      "applies_to": ["All"]
+    }
+  ]
+}

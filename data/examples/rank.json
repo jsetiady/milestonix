@@ -1,0 +1,26 @@
+{
+  "epics": {
+    "QA-E01": 1,
+    "QA-E02": 2,
+    "QA-E03": 3
+  },
+  "milestones": {
+    "QA-003": 1
+  },
+  "tasks": {
+    "QA-001": 1,
+    "QA-002": 2,
+    "QA-004": 3,
+    "QA-005": 4,
+    "QA-006": 5,
+    "QA-007": 6,
+    "QA-008": 7,
+    "QA-009": 8,
+    "QA-010": 9
+  },
+  "_meta": {
+    "last_modified": "2024-07-04T12:00:00Z",
+    "version": 1,
+    "note": "Rank is managed locally and must never be overwritten by sync"
+  }
+}

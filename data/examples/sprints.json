@@ -1,0 +1,46 @@
+{
+  "sprints": [
+    {
+      "id": "SPR-111",
+      "name": "Sprint 1.11.0",
+      "label": "SPRINT 1.11.0 (JULY 1 - JULY 14)",
+      "start_date": "2024-07-01",
+      "end_date": "2024-07-14",
+      "project": "Core Engine",
+      "status": "Active",
+      "color": "#4F46E5"
+    },
+    {
+      "id": "DRP-01",
+      "name": "DRP Phase I",
+      "label": "DRP (JULY 5)",
+      "start_date": "2024-07-05",
+      "end_date": "2024-07-05",
+      "project": "Core Engine",
+      "status": "Active",
+      "color": "#D97706",
+      "is_drp": true
+    },
+    {
+      "id": "SPR-190",
+      "name": "Sprint 1.90",
+      "label": "SPRINT 1.90: PERFORMANCE CRITICAL",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-25",
+      "project": "Phoenix Rebirth",
+      "status": "Active",
+      "color": "#4F46E5"
+    },
+    {
+      "id": "DRP-02",
+      "name": "DRP Phase II: Infrastructure Recovery",
+      "label": "DRP PHASE II: INFRASTRUCTURE RECOVERY",
+      "start_date": "2024-08-15",
+      "end_date": "2024-08-25",
+      "project": "Project Sentinel",
+      "status": "Active",
+      "color": "#D97706",
+      "is_drp": true
+    }
+  ]
+}

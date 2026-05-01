@@ -1,0 +1,65 @@
+{
+  "squads": [
+    "Automation Alpha",
+    "Integrations Beta",
+    "Core Quality",
+    "Performance",
+    "Squad Delta",
+    "Squad Epsilon",
+    "Squad Zeta",
+    "Squad Alpha",
+    "Alpha Strike"
+  ],
+  "engineers": [
+    "Alex Rivers",
+    "Sarah Chen",
+    "Jordan Doe",
+    "Mira Kolis",
+    "T. Vance",
+    "L. Peters",
+    "R. Gomez",
+    "E. Wright"
+  ],
+  "statuses": [
+    "Todo",
+    "In Progress",
+    "In Review",
+    "Done",
+    "Blocked",
+    "Cancelled"
+  ],
+  "projects": [
+    "Core Engine",
+    "Phoenix Rebirth",
+    "Project Sentinel"
+  ],
+  "quarters": [
+    "Q1 2024",
+    "Q2 2024",
+    "Q3 2024",
+    "Q4 2024"
+  ],
+  "business_scopes": [
+    "Internal",
+    "External",
+    "Regulatory",
+    "Strategic"
+  ],
+  "task_types": [
+    "Task",
+    "Milestone",
+    "Story",
+    "Spike",
+    "Initiative",
+    "Bug",
+    "Epic"
+  ],
+  "leave_types": [
+    "Annual Leave",
+    "Sick Leave",
+    "Conference",
+    "Public Holiday",
+    "Parental Leave",
+    "Unpaid Leave"
+  ]
+}
