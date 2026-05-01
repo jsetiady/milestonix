@@ -1,0 +1,49 @@
+{
+  "leaves": [
+    {
+      "id": "LV-001",
+      "assignee": "Jordan Doe",
+      "leave_type": "Annual Leave",
+      "start_date": "2024-07-06",
+      "end_date": "2024-07-06",
+      "approved": true,
+      "notes": "Long weekend"
+    },
+    {
+      "id": "LV-002",
+      "assignee": "Sarah Chen",
+      "leave_type": "Sick Leave",
+      "start_date": "2024-07-08",
+      "end_date": "2024-07-09",
+      "approved": true,
+      "notes": ""
+    },
+    {
+      "id": "LV-003",
+      "assignee": "Alex Rivers",
+      "leave_type": "Annual Leave",
+      "start_date": "2024-07-10",
+      "end_date": "2024-07-12",
+      "approved": true,
+      "notes": "Family trip"
+    },
+    {
+      "id": "LV-004",
+      "assignee": "Mira Kolis",
+      "leave_type": "Annual Leave",
+      "start_date": "2024-08-19",
+      "end_date": "2024-08-21",
+      "approved": true,
+      "notes": "Post-sprint break"
+    },
+    {
+      "id": "LV-005",
+      "assignee": "T. Vance",
+      "leave_type": "Conference",
+      "start_date": "2024-08-14",
+      "end_date": "2024-08-15",
+      "approved": true,
+      "notes": "QA Summit 2024"
+    }
+  ]
+}
